@@ -49,7 +49,7 @@ docker run -d \
   -e GLPI_URL=https://glpi.example.com \
   -e GLPI_APP_TOKEN=your_app_token \
   -e GLPI_USER_TOKEN=your_user_token \
-  manikumart/glpi-mcp:latest
+  manikumar1/glpi-mcp:latest
 ```
 
 ### Run locally
@@ -71,7 +71,7 @@ The server starts at `http://localhost:8000/sse`.
 ```yaml
 services:
   glpi-mcp:
-    image: manikumart/glpi-mcp:latest
+    image: manikumar1/glpi-mcp:latest
     ports:
       - "8000:8000"
     environment:
@@ -116,12 +116,12 @@ docker build -t glpi-mcp .
 
 ## Docker image
 
-Pre-built images are published to [Docker Hub](https://hub.docker.com/r/manikumart/glpi-mcp) on every push to `main` and on version tags:
+Pre-built images are published to [Docker Hub](https://hub.docker.com/r/manikumar1/glpi-mcp) on every push to `main` and on version tags:
 
 ```
-manikumart/glpi-mcp:latest
-manikumart/glpi-mcp:main
-manikumart/glpi-mcp:v1.0.0
+manikumar1/glpi-mcp:latest
+manikumar1/glpi-mcp:main
+manikumar1/glpi-mcp:v1.0.0
 ```
 
 ## License
